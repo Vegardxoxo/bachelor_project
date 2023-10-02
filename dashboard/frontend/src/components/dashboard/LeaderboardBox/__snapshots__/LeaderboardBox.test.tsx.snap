@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeaderboardBox matches snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-n97x0p-MuiPaper-root-MuiCard-root"
+  data-testid="savingsBox"
+>
+  <button
+    className="MuiButtonBase-root MuiCardActionArea-root css-uli8ma-MuiButtonBase-root-MuiCardActionArea-root"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <div
+      className="MuiCardOverflow-root MuiCardOverflow-variantPlain MuiCardOverflow-colorNeutral css-17tq388-JoyCardOverflow-root"
+    >
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          color="text.secondary"
+          id="numbersBoxes"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-9ybthn-MuiSvgIcon-root"
+            data-testid="BarChartIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"
+            />
+          </svg>
+          <p
+            style={
+              Object {
+                "fontSize": "25px",
+                "fontWeight": "semi-bold",
+                "marginTop": "-10px",
+              }
+            }
+          >
+            Din enhet er på
+             
+            <span
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              . plass
+            </span>
+          </p>
+          <p
+            style={
+              Object {
+                "fontSize": "15px",
+                "fontStyle": "italic",
+              }
+            }
+          >
+             
+            Se oversikt over topplisten med andre enheter.
+          </p>
+        </div>
+      </div>
+    </div>
+    <span
+      className="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+    />
+    <span
+      className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

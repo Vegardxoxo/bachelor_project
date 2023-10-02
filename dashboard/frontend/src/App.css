@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    font-family: Source Sans Pro, sans-serif;
+    background-color: #F7F7F7;
+}

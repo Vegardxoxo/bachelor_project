@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing render, DonutChart matches snapshot 1`] = `
+<div
+  aria-label={null}
+  aria-labelledby={null}
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-rm07xr-MuiPaper-root-MuiCard-root"
+  data-mui-internal-clone-element={true}
+  data-testid="savingsBox"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseLeave={[Function]}
+  onMouseMove={[Function]}
+  onMouseOver={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+>
+  <div
+    className="MuiCardOverflow-root MuiCardOverflow-variantPlain MuiCardOverflow-colorNeutral css-17tq388-JoyCardOverflow-root"
+  >
+    <div
+      className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+    >
+      <div
+        className="css-m69qwo-MuiStack-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+          id="title"
+        >
+          Potensiell sparing
+        </p>
+      </div>
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        id="numbers"
+      >
+         kr
+      </p>
+    </div>
+  </div>
+</div>
+`;

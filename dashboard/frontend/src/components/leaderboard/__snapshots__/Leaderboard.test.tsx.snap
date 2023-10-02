@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Leaderboard component matches snapshot 1`] = `
+<div>
+  <div
+    className="MuiGrid-root css-vj1n65-MuiGrid-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+      id="breadcrumbs"
+    >
+      <ol
+        className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          className="MuiBreadcrumbs-li"
+        >
+          <a
+            className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-le90w3-MuiTypography-root-MuiLink-root"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+          >
+            Dashboard
+          </a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+    data-testid="leaderboard"
+    style={
+      Object {
+        "alignContent": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "marginLeft": "1.8%",
+        "marginTop": "20px",
+        "width": "96.3%",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-root css-1bpij53-MuiGrid-root"
+    >
+      <div
+        className="css-70ur0o-MuiStack-root"
+      >
+        <h2
+          style={
+            Object {
+              "fontFamily": "Source Sans Pro, sans serif",
+              "fontSize": "30pt",
+              "fontWeight": 400,
+              "marginTop": -0.6,
+            }
+          }
+        >
+          Ledertavle
+        </h2>
+        <p
+          style={
+            Object {
+              "fontStyle": "italic",
+              "marginBottom": "40px",
+              "marginTop": "-10px",
+            }
+          }
+        >
+          Ledertavlen gir deg en visuell representasjon av hvordan din enhet presterer i forhold til andre enheter, basert på andelen av aktive lisenser. Topplisten gir en oversikt over de 25 enhetene med flest aktive lisenser, og indikerer dermed hvilke enheter som har færrest ubrukte lisenser.
+           
+        </p>
+      </div>
+      <p>
+        Din plassering
+      </p>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+      >
+        <table
+          aria-label="simple table"
+          className="MuiTable-root css-fm8wf7-MuiTable-root"
+          role={null}
+        >
+          <colgroup>
+            <col
+              style={
+                Object {
+                  "width": "10%",
+                }
+              }
+            />
+            <col
+              style={
+                Object {
+                  "width": "80%",
+                }
+              }
+            />
+            <col
+              style={
+                Object {
+                  "width": "10%",
+                }
+              }
+            />
+          </colgroup>
+          <thead
+            className="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+            role={null}
+          >
+            <tr
+              className="MuiTableRow-root MuiTableRow-head css-1yxvnga-MuiTableRow-root"
+              role={null}
+            />
+          </thead>
+          <tbody
+            className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            role={null}
+          />
+        </table>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": "10px",
+          }
+        }
+      />
+      <p>
+        Topplisten
+      </p>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+      >
+        <table
+          aria-label="simple table"
+          className="MuiTable-root css-i6j12u-MuiTable-root"
+          role={null}
+        >
+          <colgroup>
+            <col
+              style={
+                Object {
+                  "width": "10%",
+                }
+              }
+            />
+            <col
+              style={
+                Object {
+                  "width": "80%",
+                }
+              }
+            />
+            <col
+              style={
+                Object {
+                  "width": "10%",
+                }
+              }
+            />
+          </colgroup>
+          <thead
+            className="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+            role={null}
+          >
+            <tr
+              className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+              role={null}
+            >
+              <th
+                aria-sort={null}
+                className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+                scope="col"
+              />
+              <th
+                aria-sort={null}
+                className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeMedium css-gvdt8c-MuiTableCell-root"
+                scope="col"
+              >
+                Enhet
+              </th>
+              <th
+                aria-sort={null}
+                className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1hzidc9-MuiTableCell-root"
+                scope="col"
+              >
+                Prosent
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            role={null}
+          />
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

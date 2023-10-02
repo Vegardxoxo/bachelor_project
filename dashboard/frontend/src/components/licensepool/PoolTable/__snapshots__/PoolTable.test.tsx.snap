@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The pool table matches snapshot 1`] = `
+<h3>
+  Velg programvare 
+</h3>
+`;

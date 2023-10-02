@@ -1,0 +1,37 @@
+stages:
+  - Webapp lint
+  - Backend test
+
+Yarn Build:
+  image: node:18.0.0
+  stage: Webapp lint
+  needs: []
+  script:
+    - cd dashboard
+    - cd frontend
+    - npm i react-router-dom
+    - yarn install --frozen-lockfile --cache-folder .yarn
+    - yarn build
+  retry: 1
+
+Eslint:
+  image: node:18.0.0
+  stage: Webapp lint
+  needs: [Yarn Build]
+  script:
+    - cd dashboard
+    - cd frontend
+    - yarn install --frozen-lockfile --cache-folder .yarn
+    - yarn lint
+  retry: 1
+
+UnitTest:
+  image: python:3.9
+  stage: Backend test
+  before_script:
+    - pip install -r requirements.txt
+    - cd dashboard
+    - python manage.py runserver 8000 &
+  script:
+    - python manage.py test
+  retry: 1

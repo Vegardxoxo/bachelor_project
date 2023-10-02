@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing render, DonutChart matches snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-qypn6k-MuiPaper-root-MuiCard-root"
+  data-testid="donutChart"
+  id="donutChart"
+>
+  <div
+    className="css-1rzuxdl-MuiStack-root"
+  >
+    <div
+      className="css-1jv2z0n-MuiStack-root"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-m4473c-MuiTypography-root"
+      >
+        Total oversikt
+      </p>
+      <svg
+        aria-hidden={true}
+        aria-label={null}
+        aria-labelledby={null}
+        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-p51dmq-MuiSvgIcon-root"
+        data-mui-internal-clone-element={true}
+        data-testid="donutchartHelpIcon"
+        focusable="false"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
+        />
+      </svg>
+    </div>
+    <div
+      className="css-15hav22-MuiStack-root"
+    >
+      <div
+        className="css-hqhp0o-MuiStack-root"
+      >
+        <div
+          className="MuiBox-root css-vsxoph"
+        />
+        <div
+          className="MuiBox-root css-4kogbh"
+        />
+        <div
+          className="MuiBox-root css-1tkh0sf"
+        />
+      </div>
+      <div
+        className="css-7ivaql-MuiStack-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1esljnb-MuiTypography-root"
+        >
+          Aktiv
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1esljnb-MuiTypography-root"
+        >
+          Ledig
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1esljnb-MuiTypography-root"
+        >
+          Ubrukt
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

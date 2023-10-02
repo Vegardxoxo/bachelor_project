@@ -1,0 +1,10 @@
+#LogIn {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Headline {
+    font-size: xx-large;
+}

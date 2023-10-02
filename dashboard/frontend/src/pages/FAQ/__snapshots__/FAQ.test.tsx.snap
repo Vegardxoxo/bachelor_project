@@ -1,0 +1,1297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing FAQ page matches snapshot 1`] = `
+<div>
+  <div
+    className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+      id="breadcrumbs"
+    >
+      <ol
+        className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          className="MuiBreadcrumbs-li"
+        >
+          <a
+            className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-le90w3-MuiTypography-root-MuiLink-root"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+          >
+            Dashboard
+          </a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    className="MuiGrid-root Header css-vj1n65-MuiGrid-root"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+      id="Headline"
+    >
+      Ofte stilte spørsmål
+    </p>
+    <p
+      style={
+        Object {
+          "fontStyle": "italic",
+          "marginBottom": "30px",
+        }
+      }
+    >
+      Nedenfor ser du en oversikt over ofte stilte spørsmål om lisensdashboardet, lisensportalen, og ledertavlen.
+    </p>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    id="Columns"
+  >
+    <p
+      className="SubHeadline"
+      data-testid="Dashboard"
+    >
+      Dashboard
+    </p>
+    <div
+      className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hva brukes lisensdashboardet til?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Lisensdashboardet viser en oversikt over alle lisenser eid i din enhet.
+                    <br />
+                    <br />
+                    Lisensene blir presentert på ulike måter i lisensdashboardet:
+                    <ul>
+                      <li>
+                        Totale lisenser viser hvor mange lisenser enheten eier.
+                      </li>
+                      <li>
+                        Ubrukte lisenser viser hvor mange lisenser av de enheten eier som aldri har blitt brukt eller åpnet.
+                      </li>
+                      <li>
+                        Ledige lisenser viser hvor mange lisenser av de enheten eier som ikke har blitt brukt eller åpnet innen de siste 90 dagene.
+                      </li>
+                    </ul>
+                    I tillegg vises en oversikt over hvor stor prosent av aktive, ledige og ubrukte lisenser som enheten eier i form av en donutchart.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvor kan jeg se hvilke lisenser enheten min eier?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Ved å trykke på boksen "Totale lisenser" åpnes en side med en tabelloversikt over alle lisenser enheten eier.
+                    <br />
+                    <br />
+                    Tabellen viser informasjon om hvilken bruker lisensen er tilknyttet og brukerens PC-løpenummer. I tillegg vises informasjon om lisensens status som aktiv, ledig eller ubrukt.
+                    <br />
+                    <br />
+                    Ved å trykke på en spesifikk lisens i denne tabellen kan man se informasjon om når programvaren tilknyttet lisensen sist ble åpnet av brukeren.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvor kan jeg se hvilke ubrukte lisenser enheten min har?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Ved å trykke på boksen "Ubrukte lisenser" åpnes en side med en tabelloversikt over alle lisenser enheten eier som aldri er blitt tatt i bruk.
+                    <br />
+                    <br />
+                    Tabellen viser informasjon om hvilken bruker lisensen er tilknyttet og brukerens løpenummer.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvor kan jeg se hvilke ledige lisenser enheten min har?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Ved å trykke på boksen "Ledige lisenser" åpnes en side med en tabelloversikt over alle lisenser enheten eier som ikke har blitt bruk eller åpnet av brukeren de siste 90 dagene.
+                    <br />
+                    <br />
+                    Tabellen viser informasjon om hvilken bruker lisensen er tilknyttet og brukerens løpenummer.
+                    <br />
+                    <br />
+                    Ved å trykke på en spesifikk lisens i denne tabellen kan man se tilleggsinformasjon om når lisensen sist ble åpnet.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvor kan jeg se hvilke lisenser jeg har tilknyttet min bruker?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Det finnes to måter å gjøre dette på.
+                    <ul>
+                      <li>
+                        Gå inn på oversikten over totale lisenser i enheten og kryss av for å bare se egne lisenser i tabellen.
+                      </li>
+                      <li>
+                        Gå inn på Min Side for å se oversikt over alle lisenser tilkoblet din bruker.
+                      </li>
+                    </ul>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvordan regnes potensiell sparing ut?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Potensiell sparing regnes ut ved å summere prisen på alle ubrukte og ledige lisenser enheten eier. 
+                    <br />
+                    <br />
+                    I første omgang er dette tallet noe høyt ved at alle prisene på lisenser eid er satt til en default. I tillegg er det ikke blitt sortert ut alle lisenser for programvare som man trenger å ha på sin PC. 
+                    <br />
+                    <br />
+                    I fremtidige utgivelser vil dette tallet bli mer korrekt for hva enheten faktisk kan spare ved å frigi alle sine ubrukte og ledige lisenser.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    id="Columns"
+  >
+    <p
+      className="SubHeadline"
+    >
+      Lisensportalen
+    </p>
+    <div
+      className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hva er lisensportalen?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Lisensportalen er en oversikt over alle lisenser som din enhet kan kjøpe fra andre enheter. Det er også her lisenser din enhet har lagt til salg havner. 
+                    <br />
+                    <br />
+                    Lisensportalen skal oppfordre til gjenbruk av lisenser heller enn å kjøpe inn nye når det finnes mange ledige og ubrukte lisenser innenfor Trondheim Kommune. 
+                    <br />
+                    <br />
+                    Bare lisensansvarlige innen en enhet har mulighet til å kjøpe en lisens fra lisensportalen, og det er bare de som kan legge til en lisens fra enheten til lisensportalen for salg. Alle brukere kan velge å sende en forespørsel om å kjøpe eller selge en lisens som er tilkoblet deres PC eller bruker. 
+                    <br />
+                    <br />
+                    I første omgang kan man kjøpe en enkeltlisens fra en annen enhet til samme pris som ved innkjøp. 
+                    <br />
+                    Senere er det planlagt at dette skal endres til å kunne kjøpe en lisens fra lisensportalen til en billigere pris enn innkjøpspris.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvordan legger jeg ut en lisens til salg i lisensportalen?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Lisensansvarlige kan følge disse stegene for å frigjøre en lisens:
+                    <ol>
+                      <li>
+                        Gå inn på oversikten over totale lisenser i enheten.
+                      </li>
+                      <li>
+                        Finn og trykk på den lisensen som ønskes å selges gjennom lisensportalen.
+                      </li>
+                      <li>
+                        Trykk på knappen hvor det står "Frigjør".
+                      </li>
+                    </ol>
+                    Lisensen ligger da tilgjengelig for kjøp i lisensportalen hvor andre enheter kan kjøpe den.
+                    <br />
+                    <br />
+                    Vanlige brukere kan føge de samme stegene som nevnt ovenfor.
+                    <br />
+                    Da blir en forespørsel om å frigjøre lisensen blir sendt til den lisensansvarlige i enheten og de har mulighet til å godkjenne eller avslå denne forespørselen. Dersom forespørselen blir godkjent, blir lisensen automatisk lagt til i lisensportalen.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvordan kjøper jeg en lisens fra lisensportalen?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Lisensansvarlige kan følge disse stegene for å kjøpe en lisens:
+                    <ol>
+                      <li>
+                        Gå inn på lisensportalen og søk opp navnet på lisensen du ønsker å kjøpe.
+                      </li>
+                      <li>
+                        Trykk på lisensen du ønsker å kjøpe for å se mer informasjon om den.
+                      </li>
+                      <li>
+                        Trykk på handlekurven til den lisensen du ønsker å kjøpe.
+                      </li>
+                      <li>
+                        Du vil nå få opp en melding dersom din enhet allerede eier en ledig eller ubrukt lisens av denne typen. Da kan man velge å kjøpe lisensen uansett, eller avbryte kjøpet.
+                      </li>
+                    </ol>
+                    Når kjøpet gjennomføres blir lisensen lagt til i enhetens Lisensdashboard.
+                    <br />
+                    <br />
+                    Vanlige brukere kan følge disse stegene for å kjøpe en lisens:
+                    <ol>
+                      <li>
+                        Gå inn på lisensportalen og søk opp navnet på lisensen du ønsker å kjøpe.
+                      </li>
+                      <li>
+                        Trykk på lisensen du ønsker å kjøpe for å se mer informasjon om den.
+                      </li>
+                      <li>
+                        Trykk på handlekurven til den lisensen du ønsker å kjøpe.
+                      </li>
+                      <li>
+                        Du vil få opp melding om at lisensansvarlig i enheten har mottat forespørsel om kjøp av denne lisensen.
+                      </li>
+                    </ol>
+                    Når en slik forespørsel om kjøp blir sendt, vil lisensansvarlig godkjenne eller avslå forespørselen.
+                    <br />
+                    Dersom forespørselen godkjennes vil lisensen automatisk overføres til brukeren som sendte forespørselen om kjøp.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvordan er prisen på lisensene regnet ut?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    I første omgang kan man kjøpe en enkeltlisens fra en annen enhet til en fastsatt defaultpris.Dette er basert på noe manglende data tilgjengelig om lisenspris.
+                    <br />
+                    <br />
+                    Visse lisenser har en annen defaultpris basert på utgiveren av lisensen. Lisensene med en annen defaultpris er lisenser som er Trondheim kommune har mange eksemplarer av. 
+                    <br />
+                    <br />
+                    Default priser som er fastsatt:
+                    <ul>
+                      <li>
+                        Lisenser produsert av Adobe Systems Inc. har en default pris på 1500 kr.
+                      </li>
+                      <li>
+                        Lisenser produsert av Boei Comp. har en default pris på 800 kr.
+                      </li>
+                      <li>
+                        Lisenser produsert av Microsoft Corp. har en default pris på 990 kr.
+                      </li>
+                      <li>
+                        Lisenser produsert av Xensam AB. har en default pris på 1199 kr.
+                      </li>
+                      <li>
+                        Alle andre lisenser har en defaultpris på 750 kr.
+                      </li>
+                    </ul>
+                    <br />
+                    Senere er det planlagt at prissettingen skal endres til å ta inn innkjøpsprisen til hver enkelt lisens, og disse skal kunne selges for en billigere pris i lisensportalen.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Jeg la med uhell til en lisens i lisensportalen. Hvordan får jeg den tilbake?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Du kan lett få tilbake en lisens ved å kjøpe den fra lisensportalen slik man ville gjort med andre lisenser.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    id="Columns"
+  >
+    <p
+      className="SubHeadline"
+    >
+      Ledertavlen
+    </p>
+    <div
+      className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          data-testid="expandIcon"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hva er ledertavlen?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Ledertavlen sammenligner alle enheter i Trondheim Kommune basert på hvor stor andel av alle lisensene eid i enheten er aktive.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters accordions css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <p>
+              Hvordan kan jeg øke min enhets plassering i ledertavlen?
+            </p>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                    id="details"
+                  >
+                    Du kan øke din enhets plassering i ledertavlen ved å minimere antall ledige og ubrukte lisenser din enhet eier. 
+                    <br />
+                    <br />
+                    Den enkleste måten å gjøre dette på er å legge disse lisensene ut til salg i lisensportalen.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

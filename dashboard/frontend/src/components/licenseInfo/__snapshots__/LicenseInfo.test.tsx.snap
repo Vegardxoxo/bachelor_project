@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LicenseInfo page matches snapshot 1`] = `
+<div>
+  <div
+    className="MuiGrid-root css-vj1n65-MuiGrid-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+      id="breadcrumbs"
+    >
+      <ol
+        className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          className="MuiBreadcrumbs-li"
+        >
+          <a
+            className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-le90w3-MuiTypography-root-MuiLink-root"
+            href="/"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+          >
+            Dashboard
+          </a>
+        </li>
+        <li
+          aria-hidden={true}
+          className="MuiBreadcrumbs-separator css-1wuw8dw-MuiBreadcrumbs-separator"
+        >
+          /
+        </li>
+        <li
+          className="MuiBreadcrumbs-li"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1gqyz35-MuiTypography-root"
+          />
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    className="MuiBox-root css-1lb6n3v"
+  >
+    <span
+      className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+      role="progressbar"
+      style={
+        Object {
+          "height": 80,
+          "width": 80,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;

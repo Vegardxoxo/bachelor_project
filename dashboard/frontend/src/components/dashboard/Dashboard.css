@@ -1,0 +1,99 @@
+.body {
+    width: 100%;
+}
+
+#header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#boxes {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+    width: 300px;
+    height: 180px;
+}
+
+#headline {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#cardTitle {
+    color: #002d53;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: center;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+#numbersBoxes {
+    color: #002d53;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+#organization {
+    text-align: left;
+    font-family: Source Sans Pro, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#org_name {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 30pt;
+    font-weight: 400;
+    display: flex;
+    width: 780px;
+}
+
+#selector {
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#donut_chart {
+    display: flex;
+    justify-content: center;
+
+}
+
+#portal-link {
+    color: #005aa7;
+    text-decoration: none;
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.license-portal {
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+#portal-link:hover {
+    border-bottom: 2px solid #005aa7;
+}

@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing render, Navbar matches snapshot 1`] = `
+<nav
+  data-testid="navbar"
+>
+  <div
+    className="MuiGrid-root css-vj1n65-MuiGrid-root"
+    id="navBar"
+  >
+    <div
+      className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      id="logoTrondheim"
+    >
+      <a
+        aria-current="page"
+        className="logo active"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo"
+          src="test-file-stub"
+        />
+      </a>
+    </div>
+    <div
+      className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      id="menuIcon"
+    >
+      <a
+        aria-current="page"
+        className="menu-bars active"
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-dqscbn-MuiSvgIcon-root"
+          data-testid="menuIcon"
+          focusable="false"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "#302d2d",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </a>
+    </div>
+    <nav
+      className="nav-menu"
+      data-testid="sidebar"
+    >
+      <ul
+        className="nav-menu-items"
+        onClick={[Function]}
+      >
+        <li
+          className="navbar-toggle"
+        >
+          <a
+            aria-current="page"
+            className="menu-bars active"
+            href="/"
+            onClick={[Function]}
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ha5wk2-MuiSvgIcon-root"
+              data-testid="clearIcon"
+              focusable="false"
+              style={
+                Object {
+                  "color": "#302d2d",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              id="spanning"
+            >
+              Mitt dashboard
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            className=""
+            href="/lisensportal"
+            onClick={[Function]}
+          >
+            <span
+              id="spanning"
+            >
+              Lisensportalen
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            className=""
+            href="/leaderboard"
+            onClick={[Function]}
+          >
+            <span
+              id="spanning"
+            >
+              Ledertavle
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            className=""
+            href="/minside"
+            onClick={[Function]}
+          >
+            <span
+              id="spanning"
+            >
+              Min side
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            className=""
+            href="/FAQ"
+            onClick={[Function]}
+          >
+            <span
+              id="spanning"
+            >
+              Ofte stilte spørsmål
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              id="spanning"
+            >
+              Logg ut
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</nav>
+`;

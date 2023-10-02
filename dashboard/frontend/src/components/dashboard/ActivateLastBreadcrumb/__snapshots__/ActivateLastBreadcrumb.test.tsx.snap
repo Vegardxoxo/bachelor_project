@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActiveLastBreadcrumb matches snapshot 1`] = `
+<nav
+  aria-label="breadcrumb"
+  className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+  id="breadcrumbs"
+>
+  <ol
+    className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-le90w3-MuiTypography-root-MuiLink-root"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+      >
+        Dashboard
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
